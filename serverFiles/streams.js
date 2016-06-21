@@ -16,6 +16,10 @@
 // It is normally used to get data from one stream and to pass output of that stream to another stream.
 // There is no limit on piping operations. Now we'll show a piping example for reading from one file and writing it to another file.
 
+// Chaining is a mechanism to connect output of one stream to another stream and create a chain of multiple stream operations.
+// It is normally used with piping operations.
+// Now we'll use the piping and chaining to first compress a file and then decompress the same.
+
 /** Reading data from streams **/
 var fs = require('fs');
 var data = '';
@@ -49,4 +53,13 @@ writerStream.on('error', function(err){
 console.log("Writing data to streams program Ended");
 
 /** Piping streams **/
-readerStream.pipe(writerStream);
+readerStream.pipe(writerStream);                                         // open output.txt file to show output
+console.log('Piping ended');
+
+/**Chaining streams **/
+var zlib = require('zlib');                                              // zlib is a library used to data compression.
+fs.createReadStream('../files/input.txt')
+    .pipe(zlib.createGzip())
+    .pipe(fs.createWriteStream('../files/input.txt.gz'));
+
+console.log("File Compressed.");
