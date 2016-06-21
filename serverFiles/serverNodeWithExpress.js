@@ -1,8 +1,6 @@
 
 // Importing modules
 var express = require('express');            // ExpressJs. It is NodeJS framework
-var http = require('http');
-var fs = require('fs');
 var path = require('path');
 
 var app = express();                         // Defining express functionality to app
