@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1482b2e0-c6f1-4fa2-bfcb-313ec4ed48d3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/serverFiles/streams.js" afterPath="$PROJECT_DIR$/serverFiles/streams.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="nodejs-starter-application.iws" />
@@ -74,11 +73,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="streams.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="streams.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/serverFiles/streams.js">
           <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fileSystem.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/serverFiles/fileSystem.js">
+          <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.734375">
-              <caret line="60" column="38" selection-start-line="60" selection-start-column="38" selection-end-line="60" selection-end-column="38" />
+              <caret line="50" column="3" selection-start-line="50" selection-start-column="3" selection-end-line="50" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -98,6 +107,7 @@
         <option value="$PROJECT_DIR$/serverFiles/serverNodeWithExpress.js" />
         <option value="$PROJECT_DIR$/serverFiles/buffers.js" />
         <option value="$PROJECT_DIR$/serverFiles/streams.js" />
+        <option value="$PROJECT_DIR$/serverFiles/fileSystem.js" />
       </list>
     </option>
   </component>
@@ -453,8 +463,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/serverFiles/streams.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serverFiles/fileSystem.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.734375">
-          <caret line="60" column="38" selection-start-line="60" selection-start-column="38" selection-end-line="60" selection-end-column="38" />
+          <caret line="50" column="3" selection-start-line="50" selection-start-column="3" selection-end-line="50" selection-end-column="3" />
           <folding />
         </state>
       </provider>
