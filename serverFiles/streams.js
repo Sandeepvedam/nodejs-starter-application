@@ -1,4 +1,4 @@
-// Streams - streams are objects that lets you write data to destination or read data from sourcein continuous fashion.
+// Streams - streams are objects that lets you write data to destination or read data from source in continuous fashion.
 
 // Stream types - Readable, Writable, Duplex, Transform
 // Readable(Streams which is used for read operation),
