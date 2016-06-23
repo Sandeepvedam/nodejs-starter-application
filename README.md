@@ -54,9 +54,9 @@ npm install http
 Note : Download other modules that you want.
 
 ## Run Node files :
-We can show node files on **serverFiles** directory.
-Navigate to **serverFiles** directory.
-I installed **nodemon**. Use **nodemon** instead of **node** for server run.
+- We can show node files on **serverFiles** directory.
+- Navigate to **serverFiles** directory.
+- I installed **nodemon**. Use **nodemon** instead of **node** for server run.
 For example:
 - It runs the stream file by below command. you can run other files by similar fashion.
 ```
