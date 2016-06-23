@@ -2,7 +2,10 @@
 This application contains basic usage of different modules. 
 
 ## Why Node.js?
-Node.js is server-side run-time environment built on Google chrome's v8 javascript engine.
+Node.js is server-side run-time environment built on Google chrome's v8 javascript engine.V8 compiles and executes JavaScript at lightning speeds mainly due to the fact that V8 compiles JavaScript into native machine code.
+In addition to lightning fast JavaScript execution, the real magic behind Node.js is the event loop. The event loop is a single thread that performs all I/O operations asynchronously.
+In contrast, when a Node application needs to perform an I/O operation, it sends an asynchronous task to the event loop, along with a callback function, and then continues to execute the rest of its program. When the async operation completes, the event loop returns to the task to execute its callback.
+
 
 ## Node Framework
 **ExpressJS** 
