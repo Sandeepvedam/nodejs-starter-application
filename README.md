@@ -1,33 +1,33 @@
 # nodejs-starter-application
 This application contains basic usage of different modules. 
 
-# Why Node.js?
+## Why Node.js?
 Node.js is server-side run-time environment built on Google chrome's v8 javascript engine.
 
-# Node Framework
+## Node Framework
 **ExpressJS** 
 I am using express as a node framework.
 
-# Node.js bullet points
+## Node.js bullet points
 - Node.js offers event-driven. It uses event-looping instead of threads.
 - Asynchronous callbacks. 
 - Node server automatically enter event-loop at the end of callback defination. It will exit the event loop when there are no callbacks.
 - Node.js is pretty fast by events. It is one of the reason. Listener function start executing when event fired.
 
-# When to use?
+## When to use?
 - single page applications
 - chatting applications
 - I/O bound applications
 - data streaming applications
 - json APIs based applications
 
-# Key Feautures :
+## Key Feautures :
 - Single threaded and highly scalable.
 - Non-blocking operation.
 - No buffering.
 - Event looping and Event-Driven.
 
-# NPM
+## NPM
 Hope we know about **npm** node package manager
 - update npm package
 ```
@@ -37,7 +37,7 @@ npm install npm -g
 ```
 npm install <module name>
 ```
-# Install dependencies
+## Install dependencies
 - Nodemon
   It automatically watch file changes and runs the server.
 ```
@@ -53,7 +53,7 @@ npm install http
 ```
 Note : Download other modules that you want.
 
-# Run Node files :
+## Run Node files :
 We can show node files on **serverFiles** directory.
 Navigate to **serverFiles** directory.
 I installed **nodemon**. Use **nodemon** instead of **node** for server run.
